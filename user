@@ -1,0 +1,3 @@
+saltcorn@CHNIOPEXL5097:~$ sudo chown saltcron /home/saltcron/.config/
+chown: invalid user: ‘saltcron’
+saltcorn@CHNIOPEXL5097:~$
