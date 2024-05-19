@@ -1,3 +1,10 @@
 saltcorn@CHNIOPEXL5097:~$ sudo chown saltcron /home/saltcron/.config/
 chown: invalid user: ‘saltcron’
 saltcorn@CHNIOPEXL5097:~$
+
+saltcorn@CHNIOPEXL5097:~$ saltcorn setup
+Run setup
+? How will you run Saltcorn? Development mode. I will start Saltcorn when needed
+    Error: EACCES: permission denied, mkdir '/home/saltcorn/.local/share'
+    Code: EACCES
+saltcorn@CHNIOPEXL5097:~$ 
