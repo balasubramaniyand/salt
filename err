@@ -1,0 +1,19 @@
+saltcorn@CHNIOPEXL5097:~$ sudo chown -R saltcorn:saltcorn /home/saltcorn/.config/
+saltcorn@CHNIOPEXL5097:~$ sudo chmod -R 700 /home/saltcorn/.config/
+saltcorn@CHNIOPEXL5097:~$ saltcorn setup
+Run setup
+? How will you run Saltcorn? Development mode. I will start Saltcorn when needed
+    Error: Cannot find module 'sqlite3'
+    Require stack:
+    - /home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/@saltcorn/sqlite/dist/sqlite.js
+    - /home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/@saltcorn/data/dist/db/index.js
+    - /home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/@saltcorn/data/dist/db/reset_schema.js
+    - /home/saltcorn/.local/lib/node_modules/@saltcorn/cli/src/commands/setup.js
+    - /home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/@oclif/config/lib/plugin.js
+    - /home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/@oclif/config/lib/config.js
+    - /home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/@oclif/config/lib/index.js
+    - /home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/@oclif/command/lib/command.js
+    - /home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/@oclif/command/lib/index.js
+    - /home/saltcorn/.local/lib/node_modules/@saltcorn/cli/bin/saltcorn
+    Code: MODULE_NOT_FOUND
+saltcorn@CHNIOPEXL5097:~$ 
