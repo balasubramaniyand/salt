@@ -17,3 +17,37 @@ Run setup
     - /home/saltcorn/.local/lib/node_modules/@saltcorn/cli/bin/saltcorn
     Code: MODULE_NOT_FOUND
 saltcorn@CHNIOPEXL5097:~$ 
+saltcorn@CHNIOPEXL5097:~$ sudo npm install -g sqlite3
+npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+npm ERR! code 1
+npm ERR! path /home/saltcorn/.local/lib/node_modules/sqlite3
+npm ERR! command failed
+npm ERR! command sh -c prebuild-install -r napi || node-gyp rebuild
+npm ERR! prebuild-install warn install self-signed certificate in certificate chain
+npm ERR! gyp info it worked if it ends with ok
+npm ERR! gyp info using node-gyp@8.4.1
+npm ERR! gyp info using node@18.20.2 | linux | x64
+npm ERR! gyp info find Python using Python version 3.10.12 found at "/usr/bin/python3"
+npm ERR! gyp http GET https://nodejs.org/download/release/v18.20.2/node-v18.20.2-headers.tar.gz
+npm ERR! gyp WARN install got an error, rolling back install
+npm ERR! gyp ERR! configure error 
+npm ERR! gyp ERR! stack FetchError: request to https://nodejs.org/download/release/v18.20.2/node-v18.20.2-headers.tar.gz failed, reason: self-signed certificate in certificate chain
+npm ERR! gyp ERR! stack     at ClientRequest.<anonymous> (/home/saltcorn/.local/lib/node_modules/sqlite3/node_modules/minipass-fetch/lib/index.js:110:14)
+npm ERR! gyp ERR! stack     at ClientRequest.emit (node:events:517:28)
+npm ERR! gyp ERR! stack     at TLSSocket.socketErrorListener (node:_http_client:501:9)
+npm ERR! gyp ERR! stack     at TLSSocket.emit (node:events:529:35)
+npm ERR! gyp ERR! stack     at emitErrorNT (node:internal/streams/destroy:151:8)
+npm ERR! gyp ERR! stack     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+npm ERR! gyp ERR! stack     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+npm ERR! gyp ERR! System Linux 6.5.0-35-generic
+npm ERR! gyp ERR! command "/usr/bin/node" "/home/saltcorn/.local/lib/node_modules/sqlite3/node_modules/.bin/node-gyp" "rebuild"
+npm ERR! gyp ERR! cwd /home/saltcorn/.local/lib/node_modules/sqlite3
+npm ERR! gyp ERR! node -v v18.20.2
+npm ERR! gyp ERR! node-gyp -v v8.4.1
+npm ERR! gyp ERR! not ok
+
+npm ERR! A complete log of this run can be found in: /root/.npm/_logs/2024-05-19T13_40_42_761Z-debug-0.log
+saltcorn@CHNIOPEXL5097:~$ npm list -g sqlite 3
+/usr/lib
+`-- (empty)
+
