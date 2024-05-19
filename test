@@ -1,0 +1,19 @@
+saltcorn@CHNIOPEXL5097:~$ ll
+total 42
+drwxr-x--- 5 saltcorn saltcorn   10 May 19 18:49 ./
+drwxr-xr-x 6 root     root        6 May 19 18:55 ../
+-rw------- 1 saltcorn saltcorn  265 May 19 18:49 .bash_history
+-rw-r--r-- 1 saltcorn saltcorn  220 May 19 18:41 .bash_logout
+-rw-r--r-- 1 saltcorn saltcorn 3815 May 19 18:43 .bashrc
+drwxrwxr-x 3 saltcorn saltcorn    3 May 19 18:47 .cache/
+drwxr-xr-x 2      700 saltcorn    2 May 19 18:43 .config/
+drwxr-xr-x 4 root     root        4 May 19 18:46 .local/
+-rw-r--r-- 1 saltcorn saltcorn  807 May 19 18:41 .profile
+-rw-r--r-- 1 saltcorn saltcorn    0 May 19 18:43 .sudo_as_admin_successful
+saltcorn@CHNIOPEXL5097:~$ saltcorn setup
+Run setup
+? How will you run Saltcorn? Development mode. I will start Saltcorn when needed
+    Error: EACCES: permission denied, mkdir '/home/saltcorn/.local/share'
+    Code: EACCES
+saltcorn@CHNIOPEXL5097:~$ 
+
