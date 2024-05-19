@@ -1,0 +1,16 @@
+saltcorn@CHNIOPEXL5097:~$  saltcorn setup
+Run setup
+? How will you run Saltcorn? Server mode. Always run in background, with Postgres
+No database specified
+Found local database, how do I connect?
+Enter database connection parameters
+Database host [localhost]: localhost
+Database port [5432]: 5432
+Database name [saltcorn]: saltcron
+Database user [saltcorn]: saltcron
+Database password: *****
+Set session secret to [auto-generate]: *****
+    Error: EACCES: permission denied, open '/home/saltcorn/.config/.saltcorn'
+    Code: EACCES
+saltcorn@CHNIOPEXL5097:~$ exit
+exit
