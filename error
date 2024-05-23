@@ -1,0 +1,16 @@
+exit
+root@cio-ai:~# sudo mv /root/.mjmlconfig /home/saltcorn/saltcorn/.mjmlconfig
+sudo mv /root/plugins_folder /home/saltcorn/saltcorn/plugins_folder
+sudo chown saltcorn:saltcorn /home/saltcorn/saltcorn/.mjmlconfig
+sudo chown -R saltcorn:saltcorn /home/saltcorn/saltcorn/plugins_folder
+mv: cannot stat '/root/.mjmlconfig': No such file or directory
+mv: cannot stat '/root/plugins_folder': No such file or directory
+chown: cannot access '/home/saltcorn/saltcorn/.mjmlconfig': No such file or directory
+root@cio-ai:~# su saltcorn
+saltcorn@cio-ai:/root$ ll
+ls: cannot open directory '.': Permission denied
+saltcorn@cio-ai:/root$ sudo ll
+sudo: ll: command not found
+saltcorn@cio-ai:/root$ sudo mv /root/.mjmlconfig /home/saltcorn/saltcorn/.mjmlconfig
+mv: cannot stat '/root/.mjmlconfig': No such file or directory
+saltcorn@cio-ai:/root$ 
