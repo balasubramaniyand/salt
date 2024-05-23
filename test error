@@ -1,0 +1,412 @@
+saltcorn@cio-ai:/root$ saltcorn serve
+Error reading mjmlconfig :  Error: EACCES: permission denied, open '/root/.mjmlconfig'
+    at Object.openSync (node:fs:590:3)
+    at Object.readFileSync (node:fs:458:35)
+    at readMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:38:43)
+    at handleMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:146:7)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/index.js:506:27)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml/lib/index.js:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+  errno: -13,
+  syscall: 'open',
+  code: 'EACCES',
+  path: '/root/.mjmlconfig'
+}
+[Error: EACCES: permission denied, mkdir '/root/plugins_folder'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/root/plugins_folder'
+}
+[Error: EACCES: permission denied, mkdir '/root/plugins_folder'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/root/plugins_folder'
+}
+Error reading mjmlconfig :  Error: EACCES: permission denied, open '/root/.mjmlconfig'
+    at Object.openSync (node:fs:590:3)
+    at Object.readFileSync (node:fs:458:35)
+    at readMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:38:43)
+    at handleMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:146:7)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/index.js:506:27)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml/lib/index.js:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+  errno: -13,
+  syscall: 'open',
+  code: 'EACCES',
+  path: '/root/.mjmlconfig'
+}
+Error reading mjmlconfig :  Error: EACCES: permission denied, open '/root/.mjmlconfig'
+    at Object.openSync (node:fs:590:3)
+    at Object.readFileSync (node:fs:458:35)
+    at readMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:38:43)
+    at handleMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:146:7)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/index.js:506:27)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml/lib/index.js:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+  errno: -13,
+  syscall: 'open',
+  code: 'EACCES',
+  path: '/root/.mjmlconfig'
+}
+Error reading mjmlconfig :  Error: EACCES: permission denied, open '/root/.mjmlconfig'
+    at Object.openSync (node:fs:590:3)
+    at Object.readFileSync (node:fs:458:35)
+    at readMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:38:43)
+    at handleMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:146:7)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/index.js:506:27)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml/lib/index.js:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+  errno: -13,
+  syscall: 'open',
+  code: 'EACCES',
+  path: '/root/.mjmlconfig'
+}
+Error reading mjmlconfig :  Error: EACCES: permission denied, open '/root/.mjmlconfig'
+    at Object.openSync (node:fs:590:3)
+    at Object.readFileSync (node:fs:458:35)
+    at readMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:38:43)
+    at handleMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:146:7)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/index.js:506:27)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml/lib/index.js:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+  errno: -13,
+  syscall: 'open',
+  code: 'EACCES',
+  path: '/root/.mjmlconfig'
+}
+Error reading mjmlconfig :  Error: EACCES: permission denied, open '/root/.mjmlconfig'
+    at Object.openSync (node:fs:590:3)
+    at Object.readFileSync (node:fs:458:35)
+    at readMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:38:43)
+    at handleMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:146:7)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/index.js:506:27)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml/lib/index.js:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+  errno: -13,
+  syscall: 'open',
+  code: 'EACCES',
+  path: '/root/.mjmlconfig'
+}
+Error reading mjmlconfig :  Error: EACCES: permission denied, open '/root/.mjmlconfig'
+    at Object.openSync (node:fs:590:3)
+    at Object.readFileSync (node:fs:458:35)
+    at readMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:38:43)
+    at handleMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:146:7)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/index.js:506:27)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml/lib/index.js:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+  errno: -13,
+  syscall: 'open',
+  code: 'EACCES',
+  path: '/root/.mjmlconfig'
+}
+[Error: EACCES: permission denied, mkdir '/root/plugins_folder'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/root/plugins_folder'
+}
+[Error: EACCES: permission denied, mkdir '/root/plugins_folder'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/root/plugins_folder'
+}
+Error reading mjmlconfig :  Error: EACCES: permission denied, open '/root/.mjmlconfig'
+    at Object.openSync (node:fs:590:3)
+    at Object.readFileSync (node:fs:458:35)
+    at readMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:38:43)
+    at handleMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:146:7)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/index.js:506:27)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml/lib/index.js:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+  errno: -13,
+  syscall: 'open',
+  code: 'EACCES',
+  path: '/root/.mjmlconfig'
+}
+Error reading mjmlconfig :  Error: EACCES: permission denied, open '/root/.mjmlconfig'
+    at Object.openSync (node:fs:590:3)
+    at Object.readFileSync (node:fs:458:35)
+    at readMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:38:43)
+    at handleMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:146:7)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/index.js:506:27)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml/lib/index.js:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+  errno: -13,
+  syscall: 'open',
+  code: 'EACCES',
+  path: '/root/.mjmlconfig'
+}
+undefined:0
+
+
+[Error: SQLITE_CANTOPEN: unable to open database file
+Emitted 'error' event on Database instance at:
+] {
+  errno: 14,
+  code: 'SQLITE_CANTOPEN'
+}
+worker 948151 died
+Error reading mjmlconfig :  Error: EACCES: permission denied, open '/root/.mjmlconfig'
+    at Object.openSync (node:fs:590:3)
+    at Object.readFileSync (node:fs:458:35)
+    at readMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:38:43)
+    at handleMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:146:7)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/index.js:506:27)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml/lib/index.js:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+  errno: -13,
+  syscall: 'open',
+  code: 'EACCES',
+  path: '/root/.mjmlconfig'
+}
+Error reading mjmlconfig :  Error: EACCES: permission denied, open '/root/.mjmlconfig'
+    at Object.openSync (node:fs:590:3)
+    at Object.readFileSync (node:fs:458:35)
+    at readMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:38:43)
+    at handleMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:146:7)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/index.js:506:27)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml/lib/index.js:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+  errno: -13,
+  syscall: 'open',
+  code: 'EACCES',
+  path: '/root/.mjmlconfig'
+}
+^C
+saltcorn@cio-ai:/root$ Error reading mjmlconfig :  Error: EACCES: permission denied, open '/root/.mjmlconfig'
+    at Object.openSync (node:fs:590:3)
+    at Object.readFileSync (node:fs:458:35)
+    at readMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:38:43)
+    at handleMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:146:7)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/index.js:506:27)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml/lib/index.js:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+  errno: -13,
+  syscall: 'open',
+  code: 'EACCES',
+  path: '/root/.mjmlconfig'
+}
+Error reading mjmlconfig :  Error: EACCES: permission denied, open '/root/.mjmlconfig'
+    at Object.openSync (node:fs:590:3)
+    at Object.readFileSync (node:fs:458:35)
+    at readMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:38:43)
+    at handleMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:146:7)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/index.js:506:27)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml/lib/index.js:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+  errno: -13,
+  syscall: 'open',
+  code: 'EACCES',
+  path: '/root/.mjmlconfig'
+}
+Error reading mjmlconfig :  Error: EACCES: permission denied, open '/root/.mjmlconfig'
+    at Object.openSync (node:fs:590:3)
+    at Object.readFileSync (node:fs:458:35)
+    at readMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:38:43)
+    at handleMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:146:7)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/index.js:506:27)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml/lib/index.js:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+  errno: -13,
+  syscall: 'open',
+  code: 'EACCES',
+  path: '/root/.mjmlconfig'
+}
+Error reading mjmlconfig :  Error: EACCES: permission denied, open '/root/.mjmlconfig'
+    at Object.openSync (node:fs:590:3)
+    at Object.readFileSync (node:fs:458:35)
+    at readMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:38:43)
+    at handleMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:146:7)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/index.js:506:27)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml/lib/index.js:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+  errno: -13,
+  syscall: 'open',
+  code: 'EACCES',
+  path: '/root/.mjmlconfig'
+}
+Error reading mjmlconfig :  Error: EACCES: permission denied, open '/root/.mjmlconfig'
+    at Object.openSync (node:fs:590:3)
+    at Object.readFileSync (node:fs:458:35)
+    at readMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:38:43)
+    at handleMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:146:7)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/index.js:506:27)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml/lib/index.js:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+  errno: -13,
+  syscall: 'open',
+  code: 'EACCES',
+  path: '/root/.mjmlconfig'
+}
+Error reading mjmlconfig :  Error: EACCES: permission denied, open '/root/.mjmlconfig'
+    at Object.openSync (node:fs:590:3)
+    at Object.readFileSync (node:fs:458:35)
+    at readMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:38:43)
+    at handleMjmlConfig (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/helpers/mjmlconfig.js:146:7)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml-core/lib/index.js:506:27)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/saltcorn/.local/lib/node_modules/@saltcorn/cli/node_modules/mjml/lib/index.js:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12) {
+  errno: -13,
+  syscall: 'open',
+  code: 'EACCES',
+  path: '/root/.mjmlconfig'
+}
+
+
