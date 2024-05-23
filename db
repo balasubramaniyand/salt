@@ -1,0 +1,26 @@
+root@opexwise-ml3:~# docker logs 7ef3fefe58f7
+
+PostgreSQL Database directory appears to contain a database; Skipping initialization
+
+2024-05-23 13:38:44.575 UTC [1] LOG:  starting PostgreSQL 12.17 (Debian 12.17-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2024-05-23 13:38:44.577 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-05-23 13:38:44.577 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2024-05-23 13:38:44.578 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2024-05-23 13:38:44.603 UTC [27] LOG:  database system was shut down at 2024-05-23 13:29:15 UTC
+2024-05-23 13:38:44.619 UTC [1] LOG:  database system is ready to accept connections
+2024-05-23 14:08:54.152 UTC [1] LOG:  received fast shutdown request
+2024-05-23 14:08:54.153 UTC [1] LOG:  aborting any active transactions
+2024-05-23 14:08:54.157 UTC [1] LOG:  background worker "logical replication launcher" (PID 33) exited with exit code 1
+2024-05-23 14:08:54.157 UTC [28] LOG:  shutting down
+2024-05-23 14:08:54.173 UTC [1] LOG:  database system is shut down
+
+PostgreSQL Database directory appears to contain a database; Skipping initialization
+
+2024-05-23 14:08:55.032 UTC [1] LOG:  starting PostgreSQL 12.17 (Debian 12.17-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2024-05-23 14:08:55.033 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-05-23 14:08:55.033 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2024-05-23 14:08:55.034 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2024-05-23 14:08:55.056 UTC [27] LOG:  database system was shut down at 2024-05-23 14:08:54 UTC
+2024-05-23 14:08:55.065 UTC [1] LOG:  database system is ready to accept connections
+root@opexwise-ml3:~# 
+
