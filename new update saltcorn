@@ -1,0 +1,116 @@
+# Create a directory for Saltcorn
+sudo mkdir -p /home/saltcorn/saltcorn
+sudo chown -R saltcorn:saltcorn /home/saltcorn/saltcorn
+
+# Move the configuration and data files
+sudo mv /root/.mjmlconfig /home/saltcorn/saltcorn/.mjmlconfig
+sudo mv /root/plugins_folder /home/saltcorn/saltcorn/plugins_folder
+sudo chown saltcorn:saltcorn /home/saltcorn/saltcorn/.mjmlconfig
+sudo chown -R saltcorn:saltcorn /home/saltcorn/saltcorn/plugins_folder
+
+# Set environment variables (you can also add these to ~/.bashrc or ~/.profile)
+export SALTCORN_DATA_DIRECTORY=/home/saltcorn/saltcorn
+export MJML_CONFIG_PATH=/home/saltcorn/saltcorn/.mjmlconfig
+
+# Run Saltcorn
+cd /home/saltcorn/saltcorn
+saltcorn serve
+=========================================================================
+
+
+
+Certainly! To install Saltcorn on Ubuntu, you have a couple of options. Let's walk through them:
+
+1. **Quick Automated Install (Recommended):**
+   - This method is straightforward and works on Ubuntu 18.04, 20.04, and 21.04.
+   - Open your terminal and run the following three commands (as root or with sudo access):
+     ```bash
+     wget -qO - https://deb.nodesource.com/setup_18.x | sudo bash -
+     sudo apt-get install -qqy nodejs npx
+     saltcorn-install -y
+     ```
+   - The first two lines install Node.js 18, and the last line installs Saltcorn along with PostgreSQL. It sets up Saltcorn as a service listening on port 80. If you want to customize the installation (e.g., use a different port or database backend), omit the `-y` flag for an interactive installation¹.
+
+2. **Manual Installation:**
+   - These instructions are for Ubuntu 20.04 (but should work on other versions too).
+   - First, install Node.js and other dependencies:
+     ```bash
+     wget -qO - https://deb.nodesource.com/setup_18.x | sudo -E bash -
+     sudo apt-get install -y nodejs libpq-dev build-essential python-is-python3
+     ```
+   - Next, create a user for Saltcorn:
+     ```bash
+     adduser saltcorn
+     adduser saltcorn sudo
+     su saltcorn
+     cd
+     mkdir -p ~/.config/
+     npm config set prefix /home/saltcorn/.local
+     echo 'export PATH=/home/saltcorn/.local/bin:$PATH' >> /home/saltcorn/.bashrc
+     source /home/saltcorn/.bashrc
+     ```
+   - Install Saltcorn:
+     ```bash
+     npm install -g @saltcorn/cli
+     ```
+   - If the installation fails, try this command instead:
+     ```bash
+     npm install -g @saltcorn/cli --unsafe
+     ```
+   - Set up Saltcorn:
+     ```bash
+     saltcorn setup
+     ```
+     Follow the instructions, and when prompted, enter the sudo password you set for the saltcorn user.
+   - Exit the saltcorn user and become root again:
+     ```bash
+     exit
+     ```
+   - Run Saltcorn manually as the saltcorn user:
+     ```bash
+     sudo -u saltcorn saltcorn serve
+     ```
+     Check that you can connect to your server through your domain. If not, verify your DNS setup.
+   - To install Saltcorn as a service (so it runs in the background and restarts automatically after reboots), create a service file:
+     ```bash
+     sudo nano /lib/systemd/system/saltcorn.service
+     ```
+     Add the following content:
+     ```
+     [Unit]
+     Description=saltcorn
+     Documentation=https://saltcorn.com
+     After=network.target
+
+     [Service]
+     Type=notify
+     WatchdogSec=5
+     User=saltcorn
+     WorkingDirectory=/home/saltcorn
+     ExecStart=/home/saltcorn/.local/bin/saltcorn serve -p 80
+     Restart=always
+     Environment="NODE_ENV=production"
+
+     [Install]
+     WantedBy=multi-user.target
+     ```
+     Make sure the node executable can open port 80 for non-root users:
+     ```bash
+     sudo setcap 'cap_net_bind_service=+ep' `which node`
+     ```
+     Finally, reload systemd and start the service:
+     ```bash
+     sudo systemctl daemon-reload
+     sudo systemctl start saltcorn
+     ```
+     You're all set! Saltcorn will now run as a service¹.
+
+Remember to adapt these instructions to your specific environment and requirements. If you encounter any issues, feel free to ask for further assistance! 😊🚀
+
+Source: Conversation with Copilot, 23/5/2024
+(1) Install on Ubuntu - Saltcorn. https://wiki.saltcorn.com/view/ShowPage/install-on-ubuntu.
+(2) GitHub - saltcorn/saltcorn: Free and open source no-code application .... https://github.com/saltcorn/saltcorn.
+(3) undefined. https://deb.nodesource.com/setup_18.x.
+(4) undefined. https://saltcorn.com.
+(5) undefined. https://deb.nodesource.com/setup_16.x.
+(6) github.com. https://github.com/saltcorn/saltcorn/tree/bc1b9d2dff9c6b435ec286a903b8665eac254487/README.md.
