@@ -1,0 +1,10 @@
+DONE
+[legacy-installer] ./bin/preinstall
+[openproject-edition] ./bin/preinstall
+[postgres] ./bin/preinstall
+INFO: autoinstall=install. A new PostgreSQL v13 server will be installed locally unless a conflicting installation is found.
+INFO: existing installation found. Skipping to next step.
+INFO: Checking connection to PostgreSQL server... env: ‘psql’: No such file or directory
+KO
+ERROR: Connection KO. Aborting postgres installation. You should check the wizard configuration in /etc/openproject/installer.dat
+root@cio-ai:/opt/openproject# 
