@@ -1,0 +1,11 @@
+dded 15 packages, and changed 1734 packages in 11s
+
+161 packages are looking for funding
+  run `npm fund` for details
+Run setup
+? How will you run Saltcorn? Server mode. Always run in background, with Postgres
+I already know how to connect!
+    Error: SQLITE_ERROR: no such table: information_schema.tables
+    Code: SQLITE_ERROR
+root@cio-ai:~# 
+
