@@ -1,0 +1,7 @@
+saltcorn@cio-ai:/root$ saltcorn setup
+Run setup
+? How will you run Saltcorn? Server mode. Always run in background, with Postgres
+I already know how to connect!
+    Error: SQLITE_ERROR: no such table: information_schema.tables
+    Code: SQLITE_ERROR
+saltcorn@cio-ai:/root$ 
