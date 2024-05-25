@@ -1,10 +1,44 @@
-DONE
-[legacy-installer] ./bin/preinstall
-[openproject-edition] ./bin/preinstall
-[postgres] ./bin/preinstall
-INFO: autoinstall=install. A new PostgreSQL v13 server will be installed locally unless a conflicting installation is found.
-INFO: existing installation found. Skipping to next step.
-INFO: Checking connection to PostgreSQL server... env: ‘psql’: No such file or directory
-KO
-ERROR: Connection KO. Aborting postgres installation. You should check the wizard configuration in /etc/openproject/installer.dat
+root@cio-ai:/opt/openproject# echo $PATH
+/root/.nvm/versions/node/v20.11.1/bin:/usr/lib/postgresql/16/bin:/home/saltcorn/.local/bin:/home/saltcorn/.local/bin:/home/saltcorn/.local/bin:/home/saltcorn/.local/bin:/home/saltcorn/.local/bin:/home/saltcorn/.local/bin:/home/saltcorn/.local/bin:/home/saltcorn/.local/bin:/home/saltcorn/.local/bin:/home/saltcorn/.local/bin:/home/saltcorn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+root@cio-ai:/opt/openproject# cat /etc/openproject/installer.dat 
+repositories/svn-path /var/db/openproject/svn
+repositories/apache-wrapper-token VR4Qqf20B3kPoUKf9GWdRBnLZihklDXN
+postgres/addon_version v1
+openproject/default_language en
+repositories/git-path /var/db/openproject/git
+repositories/git-http-backend /usr/lib/git-core/git-http-backend/
+postgres/db_host 127.0.0.1
+postgres/db_port 4532
+postgres/db_username openproject
+postgres/db_password admin
+postgres/db_name openproject
+postgres/retry retry
+server/ssl_cert /etc/ssl/certs/example.com.crt
+server/ssl_key /etc/ssl/private/example.com.key
+server/ssl_ca 
+
+
+
+
+
+
+
+
+
+
+
+
+openproject/edition default
+postgres/autoinstall install
+server/autoinstall install
+server/variant apache2
+server/hostname demo-openproject.growipx.com
+server/server_path_prefix 
+server/ssl no
+repositories/api-key G9HWbMLgJV6dvlVoSauqBvA5y1tYKULs
+repositories/svn-install skip
+repositories/git-install skip
+memcached/autoinstall install
+openproject/admin_email supportfirst_dev@iopex.com
 root@cio-ai:/opt/openproject# 
+
