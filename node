@@ -1,0 +1,17 @@
+root@cio-ai:~# sudo apt-get remove nodejs
+sudo apt-get remove npm
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Package 'nodejs' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Package 'npm' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+root@cio-ai:~# node -v
+v20.11.1
+root@cio-ai:~# npm -v
+10.2.4
+root@cio-ai:~# 
